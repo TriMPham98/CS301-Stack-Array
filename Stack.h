@@ -5,7 +5,7 @@ using namespace std;
 #define STACKTYPE
 
 // MAX_ITEMS: the maximum number of items on the stack.
-const int MAX_ITEMS = 100;
+const int DEFAULT_STACK_SIZE = 100;
 
 class FullStack
 	// Exception class thrown by Push when stack is full.
