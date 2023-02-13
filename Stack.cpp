@@ -4,7 +4,8 @@
 
 template<class T>
 Stack<T>::Stack() {
-
+    top = -1;
+    data = new T[DEFAULT_STACK_SIZE]; // new dynamic array of template type T
 }
 
 template<class T>
