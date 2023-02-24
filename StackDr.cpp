@@ -63,6 +63,7 @@ int main() {
                 outFile << command << " not found" << endl;
         }
         catch (FullStack error) {
+            cout << error.Msg();
             outFile << "FullStack exception thrown." << endl;
         }
         catch (EmptyStack) {
